@@ -1,4 +1,4 @@
-# 🐍 SnakeGame — by jaimefg1888
+# 🐍 SnakeGame — by jaimefgdev
 
 > Two versions of the same game, feature-for-feature identical. Pick your platform.
 
@@ -44,8 +44,8 @@ python -m http.server 8000
 Requirements: **Python 3.8+** and **pygame**.
 
 ```bash
-git clone https://github.com/jaimefg1888/snake.git
-cd snake
+git clone https://github.com/jaimefgdev/SnakeGame.git
+cd SnakeGame
 pip install -r requirements.txt
 python snake.py
 ```
@@ -117,8 +117,8 @@ python -m http.server 8000
 Requisitos: **Python 3.8+** y **pygame**.
 
 ```bash
-git clone https://github.com/jaimefg1888/snake.git
-cd snake
+git clone https://github.com/jaimefgdev/SnakeGame.git
+cd SnakeGame
 pip install -r requirements.txt
 python snake.py
 ```

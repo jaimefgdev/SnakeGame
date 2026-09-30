@@ -1,6 +1,6 @@
 """
 SnakeGame — Desktop edition  (pygame)
-by jaimefg1888
+by jaimefgdev
 
 Feature-parity with the HTML/Web edition:
   · Bilingual UI  (ES / EN)  selectable from the main menu
@@ -53,7 +53,7 @@ C_BLACK      = (  0,   0,   0)
 LANGS = {
     "es": {
         "title":        "SNAKE",
-        "by":           "by jaimefg1888",
+        "by":           "by jaimefgdev",
         "speed_lbl":    "VELOCIDAD",
         "walls_lbl":    "BORDES",
         "yes":          "SÍ",
@@ -84,7 +84,7 @@ LANGS = {
     },
     "en": {
         "title":        "SNAKE",
-        "by":           "by jaimefg1888",
+        "by":           "by jaimefgdev",
         "speed_lbl":    "SPEED",
         "walls_lbl":    "WALLS",
         "yes":          "YES",
@@ -999,7 +999,7 @@ def run_game(screen: pygame.Surface, fonts: dict,
 def main() -> None:
     pygame.init()
     screen = pygame.display.set_mode((SCREEN_W, SCREEN_H))
-    pygame.display.set_caption("SnakeGame by jaimefg1888")
+    pygame.display.set_caption("SnakeGame by jaimefgdev")
     fonts        = load_fonts()
     ranking_data = load_ranking()
 
